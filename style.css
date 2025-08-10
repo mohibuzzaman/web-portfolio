@@ -1,0 +1,50 @@
+/* Global reset and font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.name-highlight {
+  color: orange;
+}
+
+/* Layout */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; /* Clear float */
+}
+
+.half-width {
+  width: 45%;
+  float: left;
+  padding: 20px;
+}
+
+.half-width img {
+  max-width: 100%;
+  border-radius: 10px;
+}
